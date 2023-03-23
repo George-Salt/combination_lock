@@ -8,4 +8,4 @@
 
 ## Автор
 
-George Salt: [Вконтакте]("https://vk.com/george_salt"), [YouTube]("https://www.youtube.com/@george20097").
+George Salt: [Вконтакте](https://vk.com/george_salt), [YouTube](https://www.youtube.com/@george20097).
