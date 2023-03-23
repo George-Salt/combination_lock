@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Игра "Кодовый замок"</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link type="image/jpg" rel="icon" href="img/icon.jpg">
+</head>
+
+<body>
+  <div class="header">
+	  <h1 class="header-text">Кодовый замок</h1>
+  </div>
+
+  <div class="content">
+    <img src="img/lock.png" alt="Сейф" class="lock">
+    <h2 class="description">Подбери код и открой сейф!</h2>
+    <div class="fields f1">
+      <input type="text" onkeypress="return (event.charCode >= 48 && event.charCode <= 57 && /^\d{0,3}$/.test(this.value));" tabindex="1" maxlength="1" class="input1">
+      <input type="text" onkeypress="return (event.charCode >= 48 && event.charCode <= 57 && /^\d{0,3}$/.test(this.value));" tabindex="2" maxlength="1" class="input2">
+      <input type="text" onkeypress="return (event.charCode >= 48 && event.charCode <= 57 && /^\d{0,3}$/.test(this.value));" tabindex="3" maxlength="1" class="input3">
+      <input type="text" onkeypress="return (event.charCode >= 48 && event.charCode <= 57 && /^\d{0,3}$/.test(this.value));" tabindex="4" maxlength="1" class="input4">
+      <div class="check-button check-button1">></div>
+    </div>
+    <div class="fields f2">
+      <input type="text" onkeypress="return (event.charCode >= 48 && event.charCode <= 57 && /^\d{0,3}$/.test(this.value));" tabindex="1" maxlength="1" class="input1">
+      <input type="text" onkeypress="return (event.charCode >= 48 && event.charCode <= 57 && /^\d{0,3}$/.test(this.value));" tabindex="2" maxlength="1" class="input2">
+      <input type="text" onkeypress="return (event.charCode >= 48 && event.charCode <= 57 && /^\d{0,3}$/.test(this.value));" tabindex="3" maxlength="1" class="input3">
+      <input type="text" onkeypress="return (event.charCode >= 48 && event.charCode <= 57 && /^\d{0,3}$/.test(this.value));" tabindex="4" maxlength="1" class="input4">
+      <div class="check-button check-button2">></div>
+    </div>
+    <div class="fields f3">
+      <input type="text" onkeypress="return (event.charCode >= 48 && event.charCode <= 57 && /^\d{0,3}$/.test(this.value));" tabindex="1" maxlength="1" class="input1">
+      <input type="text" onkeypress="return (event.charCode >= 48 && event.charCode <= 57 && /^\d{0,3}$/.test(this.value));" tabindex="2" maxlength="1" class="input2">
+      <input type="text" onkeypress="return (event.charCode >= 48 && event.charCode <= 57 && /^\d{0,3}$/.test(this.value));" tabindex="3" maxlength="1" class="input3">
+      <input type="text" onkeypress="return (event.charCode >= 48 && event.charCode <= 57 && /^\d{0,3}$/.test(this.value));" tabindex="4" maxlength="1" class="input4">
+      <div class="check-button check-button3">></div>
+    </div>
+    <div class="fields f4">
+      <input type="text" onkeypress="return (event.charCode >= 48 && event.charCode <= 57 && /^\d{0,3}$/.test(this.value));" tabindex="1" maxlength="1" class="input1">
+      <input type="text" onkeypress="return (event.charCode >= 48 && event.charCode <= 57 && /^\d{0,3}$/.test(this.value));" tabindex="2" maxlength="1" class="input2">
+      <input type="text" onkeypress="return (event.charCode >= 48 && event.charCode <= 57 && /^\d{0,3}$/.test(this.value));" tabindex="3" maxlength="1" class="input3">
+      <input type="text" onkeypress="return (event.charCode >= 48 && event.charCode <= 57 && /^\d{0,3}$/.test(this.value));" tabindex="4" maxlength="1" class="input4">
+      <div class="check-button check-button4">></div>
+    </div>
+    <div class="fields f5">
+      <input type="text" onkeypress="return (event.charCode >= 48 && event.charCode <= 57 && /^\d{0,3}$/.test(this.value));" tabindex="1" maxlength="1" class="input1">
+      <input type="text" onkeypress="return (event.charCode >= 48 && event.charCode <= 57 && /^\d{0,3}$/.test(this.value));" tabindex="2" maxlength="1" class="input2">
+      <input type="text" onkeypress="return (event.charCode >= 48 && event.charCode <= 57 && /^\d{0,3}$/.test(this.value));" tabindex="3" maxlength="1" class="input3">
+      <input type="text" onkeypress="return (event.charCode >= 48 && event.charCode <= 57 && /^\d{0,3}$/.test(this.value));" tabindex="4" maxlength="1" class="input4">
+      <div class="check-button check-button5">></div>
+    </div>
+    <div class="answer-container">
+      <h2 class="answer-text">Правильный ответ:</h2>
+      <h2 class="answer"></h2>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
